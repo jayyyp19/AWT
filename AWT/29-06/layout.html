@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        *{
+            font-family: sans-serif;
+            font-weight: bold;
+            color: white;
+        }
+        #p1{
+            width: 100%;
+            font-size: 20px;
+            background-color: rgb(179, 206, 25);
+            padding: 8px;
+            height: 30px;
+        }
+        #p2, #p5{
+            margin-top: 6px ;
+            width: 100%;
+            font-size: 20px;
+            background-color:rgb(179, 206, 25);
+            padding: 8px;
+            text-align: center;
+        }
+        #p3{
+            margin-top: 6px ;
+            width: 100%;
+            font-size: 20px;
+            background-color: rgb(179, 206, 25);
+            padding:50px;
+            text-align: center;
+        }
+         #p4{
+            display: flex;
+         }
+       #p4 #ls{
+           margin-right: 1%;
+           margin-top: 10px;
+            width: 30%;
+            background-color: rgb(179, 206, 25);
+            text-align: center;
+        }
+        #rs{
+            width: 70%;
+            background-color: rgb(179, 206, 25);
+            text-align: center;
+            margin-top: 10px;
+            text-align: center;
+            }
+
+        #rs img{
+            width: 100%;
+        }    
+
+
+    </style>
+
+</head>
+<body>
+    <h1>layout1</h1>
+    <div id="p1">
+        logo
+    </div>
+    <div id="p2">
+        navigation
+    </div>
+    <div id="p3">
+        header/ banner 
+    </div>
+    <div id="p4">
+        <div id="ls">
+            <h1>sidebar</h1>
+        </div>
+        <div id="rs">
+            <img src="https://source.unsplash.com/random/1920x1080/?wallpaper,landscape" alt="image not found">
+            <h1>bodyarea</h1>
+        </div>
+        
+    </div>
+    <div id="p5">
+        footer
+    </div>    
+
+    
+</body>
+</html>
