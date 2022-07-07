@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    background-color: blueviolet;
+    display: flex;
+}
+.logo p{
+    margin-right: 50%;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    width: 24%;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 5px;
+}
+.rectangle{
+    width: 32%;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 5px;
+}
+.footer{
+    text-align: center;
+    background-color: blueviolet;
+}
