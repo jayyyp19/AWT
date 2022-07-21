@@ -1,0 +1,35 @@
+.logo{
+    background-color: aquamarine;
+    padding: 10px;
+}
+.main{
+    display: flex;
+    margin: 10px;
+}
+.right{
+    margin-left: 20px;
+}
+.header{
+    padding: 90px 200px;
+    width: 95%;
+    background-color: aquamarine;
+    margin-bottom: 10px;
+}
+.Body{
+    font-size: 30px;
+    padding: 100px 300px;
+    background-color: aquamarine;
+    width: 89%;
+}
+.footer{
+    text-align: center;
+    background-color: aquamarine;
+}
+.footer a{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.footer a{
+    color: yellow;
+    margin-left: 20px;
+}

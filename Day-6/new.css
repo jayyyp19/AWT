@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    background-color: burlywood;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    margin-left: 10%;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.a{
+    width: 32%;
+    height: 250px;
+    background-color: bisque;
+    margin-right: 5px;
+    padding: 5px;
+}
+.a img{
+    width: 496px;
+    height: 250px;
+}
+.footer{
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    text-align: center;
+}
